@@ -3,7 +3,8 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-//A class only used when sorting GPTrees. This 
+// A class only used when sorting GPTrees. This returns 1 if b is bigger,
+// -1 if a is bigger, and 0 if they are the same
 public class GPTreeComparator implements Comparator<GPTree>{ 
 	public int compare(GPTree a, GPTree b)
 	    {
@@ -12,3 +13,4 @@ public class GPTreeComparator implements Comparator<GPTree>{
 	        return 0;
 	    }
 	}
+
